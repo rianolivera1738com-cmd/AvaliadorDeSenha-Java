@@ -1,18 +1,27 @@
-## Getting Started
+# Avaliador de Senha em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Sobre o projeto
 
-## Folder Structure
+Projeto desenvolvido em Java para uma atividade acadêmica do curso de Análise e Desenvolvimento de Sistemas (ADS).
 
-The workspace contains two folders by default, where:
+O programa tem como objetivo avaliar uma senha fictícia de acordo com as regras definidas na atividade e retornar uma mensagem de orientação ao usuário.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- Visual Studio Code
+- Git e GitHub
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Conceitos praticados
 
-## Dependency Management
+- Variáveis
+- Condições `if` e `else`
+- Laços de repetição
+- Strings
+- Vetores
+- Métodos
+- Parâmetros e retorno
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Observação
+
+As senhas utilizadas neste projeto são fictícias. A aprovação significa apenas que a entrada passou pelas regras definidas para este exercício e não representa uma garantia de segurança em um sistema real.
