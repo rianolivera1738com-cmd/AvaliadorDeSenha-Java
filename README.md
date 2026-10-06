@@ -21,7 +21,3 @@ O programa tem como objetivo avaliar uma senha fictícia de acordo com as regras
 - Vetores
 - Métodos
 - Parâmetros e retorno
-
-## Observação
-
-As senhas utilizadas neste projeto são fictícias. A aprovação significa apenas que a entrada passou pelas regras definidas para este exercício e não representa uma garantia de segurança em um sistema real.
