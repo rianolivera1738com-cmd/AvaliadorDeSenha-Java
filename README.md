@@ -1,23 +1,37 @@
-# Avaliador de Senha em Java
+# Avaliador de Senhas em Java
 
-## Sobre o projeto
+Projeto acadêmico de Análise e Desenvolvimento de Sistemas (ADS). O programa lê uma senha fictícia no terminal e informa quais critérios ainda precisam ser atendidos.
 
-Projeto desenvolvido em Java para uma atividade acadêmica do curso de Análise e Desenvolvimento de Sistemas (ADS).
+## Critérios
 
-O programa tem como objetivo avaliar uma senha fictícia de acordo com as regras definidas na atividade e retornar uma mensagem de orientação ao usuário.
+- Mínimo de 8 caracteres
+- Pelo menos um número e uma letra maiúscula
+- Sem espaços
 
-## Tecnologias utilizadas
+## Como executar
 
-- Java
-- Visual Studio Code
-- Git e GitHub
+Com um JDK instalado, abra o terminal na raiz do projeto e execute:
 
-## Conceitos praticados
+```bash
+javac -encoding UTF-8 -d out src/App.java
+java -cp out App
+```
 
-- Variáveis
-- Condições `if` e `else`
-- Laços de repetição
-- Strings
-- Vetores
-- Métodos
-- Parâmetros e retorno
+## Exemplos
+
+Com a senha fictícia `Senha123`, o programa exibe:
+
+```text
+Senha aprovada
+```
+
+Com a senha fictícia `teste`, o programa exibe:
+
+```text
+Senha reprovada
+Use pelo menos 8 caracteres.
+Inclua pelo menos um número.
+Inclua pelo menos uma letra maiúscula.
+```
+
+O projeto pratica leitura com `Scanner`, manipulação de strings, condições e métodos com parâmetro e retorno.
